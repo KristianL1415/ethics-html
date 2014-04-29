@@ -5,7 +5,14 @@ body {
 #navbar {
 	list-style-type:none;
 	margin:0;
-	padding:0;
+	padding:10px;
+	color:#ffffff;
+	background-color:#29498F;
+}
+
+#navbar a {
+	color: #ffffff;
+	text-decoration: none;
 }
 li {
 	display:inline;
