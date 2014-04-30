@@ -13,7 +13,13 @@ body {
 #navbar a {
 	color: #ffffff;
 	text-decoration: none;
+	padding:10px;
 }
+
+#navbar a:hover {
+	background-color:#19396F;
+}
+
 li {
 	display:inline;
 }
