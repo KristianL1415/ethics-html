@@ -1,13 +1,29 @@
 body {
-	font-family:Helvetica, sans-serif;
-	color:#000021;
+	font-family:'Open Sans', Helvetica, sans-serif;
+	color:#333333;
+}
+
+h1 {
+	font-weight:700;
+	margin-bottom:.25em;
+	padding-left:10px;
+}
+
+#teamnumber {
+	margin-top:0px;
+	padding-left:10px;
+}
+
+ul {
+	font-size:0;
 }
 
 #navbar {
-	width:100%;
 	list-style-type:none;
-	margin:0px;
-	padding:10px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-right:0px;
 	color:#ffffff;
 	background-color:#29498F;
 }
@@ -22,6 +38,17 @@ body {
 	background-color:#19396F;
 }
 
+#navbar .highlight {
+	background-color:#19295F;
+}
+
 li {
+	font-size:16px;
 	display:inline;
+	padding:0px;
+}
+
+#content {
+	width: 80%;
+	margin:0 auto;
 }
