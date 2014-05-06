@@ -14,7 +14,7 @@ h1 {
 	padding-left:10px;
 }
 
-ul {
+#navbar ul {
 	font-size:0;
 }
 
@@ -42,7 +42,7 @@ ul {
 	background-color:#19295F;
 }
 
-li {
+#navbar li {
 	font-size:16px;
 	display:inline;
 	padding:0px;
